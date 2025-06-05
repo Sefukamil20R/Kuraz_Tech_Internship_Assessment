@@ -36,11 +36,24 @@ backend/
 ## 🛠️ Endpoints
 
 ### Get all tasks (with optional filtering)
-```
-GET /api/tasks
-GET /api/tasks?status=completed
-GET /api/tasks?status=pending
-```
+`GET /api/tasks`  
+Returns all tasks. Use `?status=completed` or `?status=pending` to filter.
+
+### Add a new task
+`POST /api/tasks`  
+Creates a new task. Requires `title` and `description`.
+
+### Mark a task as completed
+`PUT /api/tasks/:id`  
+Marks the specified task as completed.
+
+### Edit a task (title, description, dueDate, priority)
+`PUT /api/tasks/:id/edit`  
+Updates any of the task fields.
+
+### Delete a task
+`DELETE /api/tasks/:id`  
+Deletes the specified task.
 
 ### Add a new task
 ```
