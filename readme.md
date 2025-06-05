@@ -111,5 +111,3 @@ DELETE /api/tasks/:id
 Built by Sefina for a backend developer assignment.
 
 ---
-
-> Ready to push to GitHub!
