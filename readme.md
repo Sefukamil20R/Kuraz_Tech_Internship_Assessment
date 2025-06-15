@@ -108,6 +108,6 @@ DELETE /api/tasks/:id
 
 ## 👤 Author
 
-Built by Sefina for a backend developer assignment.
+Built by Sefina 
 
 ---
